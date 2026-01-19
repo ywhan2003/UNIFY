@@ -90,3 +90,9 @@ CTestTestfile.cmake
 *.out
 *.app
 *.exe
+
+python_bindings/hannlib.egg-info
+
+data/*
+index/*
+result/*

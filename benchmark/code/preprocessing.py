@@ -7,8 +7,8 @@ import utils
 
 np.random.seed(100)
 
-raw_data_root = "/data/home/petrizhang/data/vector/raw"
-data_root = "/data/home/petrizhang/data/hybrid_anns"
+raw_data_root = "/home/hyw/UNIFY/benchmark/data/vector/raw"
+data_root = "/home/hyw/UNIFY/benchmark/data/hybrid_anns"
 
 
 def run(dataset, filepath):
@@ -90,7 +90,7 @@ def run(dataset, filepath):
 
 
 dataset_all = [
-    # "sift-128-euclidean",
+    "sift-128-euclidean",
     # "fashion-mnist-784-euclidean",
     # "glove-100-angular",
     # "nytimes-256-angular",

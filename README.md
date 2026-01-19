@@ -27,6 +27,11 @@ cd code
 python search_hsig.py --use_mbv_hnsw true --data_path YOUR_DATA_DIR --index_cache_path YOUR_INDEX_DIR --result_save_path YOUR_RESULT_PATH
 ```
 
+For example, you can use the following command
+```bash
+python search_hsig.py --use_mbv_hnsw true --data_path ../data/hybrid_anns/sift-128-euclidean_with_scalar.hdf5 --index_cache_path ../index/sift --result_save_path ../result/sift.csv
+```
 
-
-
+```bash
+nohup python search_hsig.py --use_mbv_hnsw true --data_path ../data/hybrid_anns/sift-128-euclidean_with_scalar.hdf5 --index_cache_path ../index/sift --result_save_path ../result/sift.csv > hsig.log 2>&1 &
+```
