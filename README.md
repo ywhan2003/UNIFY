@@ -35,3 +35,7 @@ python search_hsig.py --use_mbv_hnsw true --data_path ../data/hybrid_anns/sift-1
 ```bash
 nohup python search_hsig.py --use_mbv_hnsw true --data_path ../data/hybrid_anns/sift-128-euclidean_with_scalar.hdf5 --index_cache_path ../index/sift --result_save_path ../result/sift.csv > hsig.log 2>&1 &
 ```
+
+```bash
+nohup python search_hsig.py --use_mbv_hnsw true --data_path ../data/hybrid_anns/glove-100-angular_with_scalar.hdf5 --index_cache_path ../index/glove --result_save_path ../result/glove.csv > hsig.log 2>&1 &
+```
